@@ -1,0 +1,35 @@
+# Core document processing
+python-docx>=0.8.11
+python-pptx>=0.6.21
+pdfplumber>=0.9.0
+pypandoc>=1.8.6
+beautifulsoup4>=4.12.2
+lxml>=4.9.3
+Pillow>=10.0.0
+
+# High-quality PDF → Markdown
+docling>=1.2.1
+marker-pdf>=0.1.0
+
+# OCR support for scanned PDFs/images
+pytesseract>=0.3.11
+opencv-python>=4.8.1
+
+# Utilities / dependencies
+numpy>=1.26.0
+tqdm>=4.65.0  # optional progress bars for large datasets
+
+# Optional: Markdown utilities
+markdown2>=2.4.8
+
+# ---------------------------------------------------
+# NOTE:
+# pytesseract requires Tesseract OCR installed separately.
+# On macOS, install Homebrew first, then run:
+#   brew install tesseract
+# On Linux (Ubuntu/Debian):
+#   sudo apt install tesseract-ocr
+# Windows users: download Tesseract installer from:
+#   https://github.com/tesseract-ocr/tesseract
+# Make sure the tesseract executable is in your system PATH
+# ---------------------------------------------------
